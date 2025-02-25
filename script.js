@@ -15,7 +15,7 @@ body.addEventListener("mousemove", (event) =>{
     spanEl.style.top = yPos + "px";
 
     // Seting the size of heart randomly 
-    const size = Math.random() * 100;
+    const size = Math.random() * 150;
     spanEl.style.width = size + "px";
     spanEl.style.height = size + "px";
 
